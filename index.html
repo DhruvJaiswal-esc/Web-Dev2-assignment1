@@ -379,11 +379,9 @@
 
 document.addEventListener("keydown", function (e) {
     
-            if(eventTitle.value===""){
-                box.textContent="Press any key to see the magic!";
-                return;}
-    keyBox.textContent = "Key pressed: " + e.key;
-            });
+     document.addEventListener("keydown", function (e) {
+    keyBox.textContent = "You Pressed: " + e.key;
+});});
 
              
     </script>
